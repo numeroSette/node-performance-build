@@ -17,10 +17,7 @@ jobs:
         run: yarn install
 
       - name: Run Build
-        run: yarn build        
-
-      - name: Run Tests
-        run: yarn test --watch-all
+        run: yarn build       
 
       - name: Run Start
         run: yarn start        
